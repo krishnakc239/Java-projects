@@ -1,0 +1,35 @@
+<html>
+<head>
+</head>
+<Body
+<form action ="PAGE.jsp" method="get" name="login form">
+<input type "text" name="username" value="joe"><p>
+<input type = "password" name = "password"><p>
+<input type="reset" value ="reset value"><p>
+<input  type ="submit" value="log on">
+</form>
+<script language = "javascript">
+<!-- 
+function testLogoinForm
+if (( loginForm.userid.value=="")||(loginForm.password.value==""))
+{alert('Please enter values for useerid and password.");
+return false;
+}
+else 
+return true;
+}
+//-->
+
+</script>
+<h1 align= " center ">ABC Inrenet Browser</h1>
+<h3 align ="left">please enter your user id and passsword </h3>
+<form name ="LoginForm" method="post"
+action="TableOfContents.jsp"
+onSubmit="return testLoginEmpty()">
+Userid:<input type="text" name ="userid"><p>
+Password:<input type ="password" name="password"><p>
+<input type ="submit" value="login" name="passsword"><p>
+<input type +"submit" value="clear input" name ="reset">
+</form>
+</body>
+</html>
